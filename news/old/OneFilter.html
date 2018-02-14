@@ -1,0 +1,20 @@
+﻿<tbody>
+    <tr>
+        <td>{{filterInfo.id}}</td>
+        <td>{{filterInfo.source}}</td>
+        <td>{{filterInfo.dest}}</td>
+        <td>{{filterInfo.desc}}</td>
+    </tr>
+    <tr ng-repeat="rule in filterInfo.rules">
+        <td colspan="4"></td>
+        <td>{{rule.element}}</td>
+        <td>{{rule.action}}</td>
+        <td><button ng-click="Delete($index)">Delete</button></td>
+    </tr>
+    <tr>
+        <td colspan="4"></td>
+        <td><select ng-model="ruleElement" ng-options="element for element in data.elements"></select></td>
+        <td><select ng-model="ruleAction" ng-options="action for action in data.actions"></select></td>
+        <td><button ng-click="AddRule()">Add rule</button></td>
+    </tr>
+</tbody>

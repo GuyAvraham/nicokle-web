@@ -223,6 +223,7 @@
         <div data-wow-duration="2s" data-wow-delay=".2s" class="row wow fadeInUp"> 
 <?php 
 define('WP_USE_THEMES', false);
+require('/news/wp-blog-header.php');
 ?>
 <?php
     $args = array( 'numberposts' => '6' );

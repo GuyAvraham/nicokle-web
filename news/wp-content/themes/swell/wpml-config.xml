@@ -1,0 +1,49 @@
+<wpml-config>
+
+  <custom-types>
+    <custom-type translate="1">project</custom-type>
+    <custom-type translate="1">testimonial</custom-type>
+  </custom-types>
+  <taxonomies>
+    <taxonomy translate="1">skill</taxonomy>
+  </taxonomies>
+    <admin-texts>
+        <key name="theme_mods_swell">
+            <key name="swell_logo" />
+            <key name="swell_favicon" />
+            <key name="swell_home">
+                <key name="swell_home_tag" />
+                <key name="swell_home_image" />
+                <key name="swell_home_video" />
+                <key name="swell_home_banner_text_main" />
+                <key name="swell_pattern_overlay" />
+                <key name="swell_portfolio_tag" />
+                <key name="swell_recent_projects_title" />
+                <key name="swell_recent_projects_summary" />
+                <key name="swell_recent_projects_count" />
+                <key name="swell_secondary_video_tag" />
+                <key name="swell_home_video_secondary" />
+                <key name="swell_blog_tag" />
+                <key name="swell_recent_posts_title" />
+                <key name="swell_recent_posts_summary" />
+                <key name="swell_recent_posts_count" />
+                <key name="swell_testimonials_tag" />
+                <key name="swell_testimonials_count" />
+                <key name="swell_testimonials_background" />
+            </key>
+            <key name="swell_css">
+                <key name="swell_custom_css" />
+            </key>
+            <key name="swell_accent_color" />
+            <key name="swell_header_color" />
+            <key name="swell_menu_color" />
+            <key name="swell_menu_hover_color" />
+            <key name="swell_link_color" />
+            <key name="swell_link_hover_color" />
+            <key name="swell_footer">
+                <key name="swell_footer_left" />
+                <key name="swell_footer_right" />
+            </key>
+        </key>
+    </admin-texts>
+</wpml-config>
